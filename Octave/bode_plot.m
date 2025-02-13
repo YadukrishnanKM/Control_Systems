@@ -6,8 +6,8 @@ clc
 num = [1]
 den = [1 2 3]
 
-# Create the transfer function
+% Create the transfer function
 sys = tf(num, den)
 
-# Plot the bode plot
+% Plot the bode plot
 bode(sys)
